@@ -15,6 +15,9 @@
 
 
 
-
 # 2. TCP/IP란?
-> - transmittion Control protocol / Internet Protocol
+> - transmittion Control protocol / Internet Protocol   
+> 
+> 
+> TCP / IP 에서는 통신을 할 때 패킷형태로 주고 받는다.   
+> 그런데 이때 패킷형태로 주고 받은 받는쪽에서 패킷을 조립하고 검사한다.  
