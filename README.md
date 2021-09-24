@@ -10,7 +10,7 @@
 |[4. 운영체제 ]()|---|
 |[5. 컴퓨터 구조 ](https://github.com/LeeJongAnn/Computer-Science-Base/tree/master/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0)|컴퓨터를 이루는 하드웨어에 대해서 알아보자|
 |[6. 소프트웨어 공학 ](https://github.com/LeeJongAnn/Computer-Science-Base/tree/master/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%20%EA%B3%B5%ED%95%99)|정보처리기사에 있는 내용을 정리한다.|
-|[7. 데이터베이스 ]()|SQL에 대해서 공부해보자|
+|[7. 데이터베이스 ](https://github.com/LeeJongAnn/Computer-Science-Base/tree/master/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4)|SQL에 대해서 공부해보자|
 
 
 
