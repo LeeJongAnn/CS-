@@ -15,7 +15,7 @@
     2.객체 지향개발의 원칙
      - SOLID
     
-    3.객체 지향개발론 - 럼바우 , 부치
+    3.객체 지향개발론 - 야콥슨 , 럼바우 , 부치
      - OOSE(Object Oriented Structure Engineering) 야콥슨
      - OMT(Object Modeling Tech?) 럼바우
      - OT 부치
