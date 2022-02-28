@@ -3,8 +3,11 @@
 ##  1. DDL,DML,DCL
 
      1. DDL - Data Definition Language 데이터 정의 언어
+        - Create Drop Alter Truncate
      2. DML - Data Manipulation Language 데이터 조작 언어
+        - Select Update Delete Insert
      3. DCL - Data Control Language 데이터 컨트롤 언어
+        - Grant Revoke
 
 
 ##  2. 데이터베이스의 정규화
