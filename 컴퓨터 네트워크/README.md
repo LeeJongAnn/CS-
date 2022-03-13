@@ -15,16 +15,16 @@
 
 
 # 2. TCP/IP , UDP 란?
-> 1. Transmission Control Protocol 
+> 1. Transmission Control Protocol (TCP)
 - TCP는 전송계층(4계층)에 포함되어서 신뢰성 있는 통신과 흐름제어 , 혼잡제어 같은 기능을 제공하는 프로토콜이다.
 - TCP / IP 에서는 통신을 할 때 패킷형태로 주고 받는다.   
-> 2. Internet Protocol
+> 2. Internet Protocol (IP)
 - 인터넷 프로토콜(Internet Protocol)의 약자로 흔히는 이 프로토콜에서 각 장치를 나타내는 IP 주소를 가리키는 말로 쓰인다.각 장치들의 전화번호라고 생각하면 쉽다.(출처 나무위키)
 - 네트워크 계층(3계층)에 포함되어 있다.
 - IP는 IPv4와 IPv6로 나뉘며 , IPv4의 주소 고갈에 대비하기 위해서 IPv6가 생겨났다.
 - IPv4 - 32비트 , IPv6 - 128비트 제공
-> 3. User Datagram Protocol 
+> 3. User Datagram Protocol (UDP)
 - TCP와는 다르게 흐름제어나 혼잡제어 ,신뢰성 있는 통신을 제공하지 않는다 . 
 - UDP는 TCP와는 달리, 메시지를 패킷(데이터그램)으로 나누고, 반대편에서 재조립하는 등의 서비스는 제공하지 않으며, 특히 도착하는 데이터 패킷들의 순서를 제공하지 않는다.
 - 대신에 빠른 연결 및 통신을 요구하는 곳에 사용된다.
-# 3. HTTP와 HTTPS
+ 
