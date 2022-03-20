@@ -58,3 +58,8 @@
 
  TDD(Test Driven Developement) 테스트 주도 개발의 약자로 테스트를 하며 프로그램을 개발하는 것을 일컫는다.   
  프로그램을 개발하는데 필수적인 것이다.
+
+## * 접근통제기술
+ 1. MAC (Mandatory Access Control) - 사용자는 관리자로부터 자원에 대한 권한을 받는다.
+ 2. DAC (Discretionary Access Control) - 사용자 계정에 기반해 접근 권한을 갖는다.
+ 3. RBAC (Role Based Access Control) - 관리자가 사용자에게 해당 역할에 따라 자원에 대한 접근 권한을 설정해준다.
