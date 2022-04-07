@@ -16,7 +16,6 @@
 ## 테스트 - 테스트 오라클,화이트박스 테스트, 블랙박스 테스트 
    - 화이트박스 테스트 : 코드를 중점적으로 테스트 하는것(Ex : 루프 검사)
    - 블랙박스 테스트 : 기능을 중점적을 테스트 하는것 (Ex :동치 분할 ,경계값 분석 .. )
-   - 
 ## 객체지향
 
 ### 1. 객체지향
@@ -36,9 +35,24 @@
      - OT 부치
 
 ### 2. 디자인패턴
-     - 빌더
-     - 구성 
-     - 행위 
+
+     1. 디자인 패턴의 구조
+
+       - 문맥 (Context)
+       - 문제 (Problem)
+       - 해결책 (Solution)
+
+     2. 디자인 패턴의 종류 
+       GoF(Gang of four) : 소프트웨어 개발 영역에서 디자인 패턴을 정의한 사람 4명을 일컫는다.
+
+       - 생성 패턴 : 객체 생성과 관련된 패턴으로 
+          Abstract Factory,Builder,Factory Method,Prototype,Singleton 등이 있다.
+       
+       - 구조 패턴 : 클래스나 객체를 조합해서 큰 구조를 만드는 패턴 
+          Adapter,Bridge,Composite,Decorator,Proxy 등이 있다.
+
+       - 행위 패턴 : 객체나 클래스 사이의 알고리즘이나 책임 분배에 관련된 패턴
+          observer,Interpreter,Iterator,State,Strategy,Visitor
 
 
 ### 3. 브룩스의 법칙 , 롱테일 법칙, 파레토 법칙
