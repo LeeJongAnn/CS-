@@ -20,7 +20,7 @@
     
     1. 필수 연산자 : Selection,Projection,Union,difference,Cartesian Product
     2. 유도된 연산자 : InterSection, SetaJoin,EqualJoin,Division
-
+        -> Selection 과 Projection,Union,difference,Cartesian Product,Join 과 Division은 꼭 알아둬야함
 ##  3. 데이터베이스의 정규화
 
     1) 정규화의 목적 
