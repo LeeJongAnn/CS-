@@ -31,9 +31,9 @@
     
     3.객체 지향개발론 - 야콥슨 , 럼바우 , 부치
      - OOSE(Object Oriented Structure Engineering) 야콥슨
-     - OMT(Object Modeling Tech?) 럼바우
+     - OMT(Object Modeling Tech?) 럼바우 - 객체 모델링 -> 동적 모델링 -> 기능 모델링 순으로 진행된다.
      - OT 부치
-
+     - Cordn and Yarndon? ....
 ### 2. 디자인패턴
 
      1. 디자인 패턴의 구조
@@ -53,7 +53,10 @@
 
        - 행위 패턴 : 객체나 클래스 사이의 알고리즘이나 책임 분배에 관련된 패턴
           observer,Interpreter,Iterator,State,Strategy,Visitor
+        
+       observer - 어떤 객체가 변화할때 그와 관련된 객체들에게 알림을 보내는 디자인 패턴 (ex: 발행 혹은 구독했을 때 상태변화로 알림이 오는 경우)
 
+       
 
 ### 3. 브룩스의 법칙 , 롱테일 법칙, 파레토 법칙
 
@@ -65,15 +68,20 @@
 ### 4. 소프트웨어 테스트 방법
 
     
-    1. 테스트 오라클
-    2. 테스트 레벨 - 단위테스트 , 통합테스트 , 인수테스트
+    1. 테스트 오라클 
+    2. 테스트 레벨 - 단위테스트 , 통합테스트 , 인수테스트(베타 테스트)
     3. 블랙박스 테스트 - 사용자의 요구사항을 프로그램을 실행시켜가며 테스트 해보는것
+       - 경계값 분석 혹은 동치 분할 테스트
     4. 화이트박스 테스트 - 프로그램 코드 내부 소스를 확인하며 오류가 발생할만한 부분을 테스트 해보는것
-
- TDD(Test Driven Developement) 테스트 주도 개발의 약자로 테스트를 하며 프로그램을 개발하는 것을 일컫는다.   
- 프로그램을 개발하는데 필수적인 것이다.
+       - 결정 커버리지 , 반복문 테스트 
+    TDD(Test Driven Developement) 테스트 주도 개발의 약자로 테스트를 하며 프로그램을 개발하는 것을 일컫는다.   
+    프로그램을 개발하는데 필수적인 것이다.
 
 ## * 접근통제기술
- 1. MAC (Mandatory Access Control) - 사용자는 관리자로부터 자원에 대한 권한을 받는다.
- 2. DAC (Discretionary Access Control) - 사용자 계정에 기반해 접근 권한을 갖는다.
- 3. RBAC (Role Based Access Control) - 관리자가 사용자에게 해당 역할에 따라 자원에 대한 접근 권한을 설정해준다.
+    1. MAC (Mandatory Access Control) - 사용자는 관리자로부터 자원에 대한 권한을 받는다.
+    1. DAC (Discretionary Access Control) - 사용자 계정에 기반해 접근 권한을 갖는다.
+    2. RBAC (Role Based Access Control) - 관리자가 사용자에게 해당 역할에 따라 자원에 대한 접근 권한을 설정해준다.
+
+## * 정적 분석 도구 - 
+    - 소프트웨어를 실행하지 않고 코드 분석만으로 오류를 찾아내는것 - 화이트박스 테스트와 유사!
+    1. PMD
